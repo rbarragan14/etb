@@ -1,0 +1,10 @@
+exito:
+  target: dev
+  outputs:
+    dev:
+      type: teradata
+      server: dbt-uzmytph3p7cm9na3.env.clearscape.teradata.com
+      schema: exito
+      username: demo_user
+      password: Juanpablo1
+      tmode: ANSI
