@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "port": 1025,
+            "tdsqlpreferences": {
+                "showuserdbs": true
+            },
+            "tdsqloptions": {
+                "logmech": "TD2",
+                "encryptdata": true,
+                "tmode": "ANSI"
+            },
+            "previewLimit": 50,
+            "driver": "SQLTools Teradata Driver",
+            "name": "EPM",
+            "server": "40.121.65.25",
+            "username": "pocuser",
+            "password": "pocuser"
+        }
+    ]
+}

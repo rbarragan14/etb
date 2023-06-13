@@ -1,0 +1,6 @@
+SELECT *
+FROM READ_NOS
+(
+    USING
+        LOCATION('/gs/storage.googleapis.com/clearscape_analytics_demo_data/DEMO_dbtAdvanced')
+) AS d;

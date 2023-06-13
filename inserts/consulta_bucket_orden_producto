@@ -1,0 +1,4 @@
+  SELECT * -- order_id, product_id, product_quantity
+    FROM (
+		LOCATION='/gs/storage.googleapis.com/clearscape_analytics_demo_data/DEMO_dbtAdvanced/primary_order_products_first.csv') as orders_products
+;

@@ -1,0 +1,4 @@
+  SELECT * -- id, name, surname, email
+    FROM (
+		LOCATION='/gs/storage.googleapis.com/clearscape_analytics_demo_data/DEMO_dbtAdvanced/raw_customers.csv') as customers
+		;

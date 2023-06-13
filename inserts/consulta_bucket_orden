@@ -1,0 +1,5 @@
+
+  SELECT * -- id , customer_id, CAST(status AS CHAR(20)) as status, order_date
+    FROM (
+		LOCATION='/gs/storage.googleapis.com/clearscape_analytics_demo_data/DEMO_dbtAdvanced/primary_orders_first.csv') as orders
+;

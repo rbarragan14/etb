@@ -1,10 +1,10 @@
-exito:
+epm:
   target: dev
   outputs:
     dev:
       type: teradata
-      server: dbt-uzmytph3p7cm9na3.env.clearscape.teradata.com
+      server: 40.121.65.25
       schema: exito
-      username: demo_user
-      password: Juanpablo1
+      username: pocuser
+      password: pocuser
       tmode: ANSI
